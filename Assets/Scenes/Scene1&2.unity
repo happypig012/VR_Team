@@ -1682,15 +1682,15 @@ MonoBehaviour:
       \uB9D0\uC774\uB0D0!"
   - speakerIndex: 0
     name: "\uAE08\uCABD\uC774"
-    dialogue: "\uC5B4\uC774, \uD560\uBC30. \n\uD6C8\uC218 \uB450\uC9C0 \uB9D0\uACE0
-      \uC800\uB9AC \uAC00\uC1FC."
+    dialogue: "\uD560\uBC30. \n\uD6C8\uC218 \uB450\uC9C0 \uB9D0\uACE0 \uC800\uB9AC
+      \uAC00\uC1FC."
   - speakerIndex: 1
     name: "\uC138\uC885"
     dialogue: "\uC774\uB7F0 \uAD18\uC538\uD55C \uB188\uC744 \uBCF4\uC558\uB098...!
       \n\uB10C \uD55C\uAE00\uC744 \uC4F8 \uC790\uACA9\uB3C4 \uC5C6\uB2E4!"
   - speakerIndex: 0
     name: "\uAE08\uCABD\uC774"
-    dialogue: "\uC73C\uC544\uC544\uC544\uC544\uC545!!!"
+    dialogue: "\uC73C\uC544\uC544\uC544\uC544\uC545!"
   isAutoStart: 1
 --- !u!4 &1639682668
 Transform:
