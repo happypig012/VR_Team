@@ -10,7 +10,7 @@ public class DialogTest : MonoBehaviour
 	[SerializeField]
 	private	TextMeshProUGUI	textCountdown;
 	[SerializeField]
-	private	DialogSystem	dialogSystem02;
+	private	DialogSystem2	dialogSystem02;
 
 	private IEnumerator Start()
 	{
@@ -20,9 +20,8 @@ public class DialogTest : MonoBehaviour
 		yield return new WaitUntil(()=>dialogSystem01.UpdateDialog());
 
 		// 대사 분기 사이에 원하는 행동을 추가할 수 있다.
-		// 캐릭터를 움직이거나 아이템을 획득하는 등의.. 현재는 5-4-3-2-1 카운트 다운 실행
 		textCountdown.gameObject.SetActive(true);
-		int count = 5;
+		int count = 0;
 		while ( count > 0 )
 		{
 			textCountdown.text = count.ToString();
@@ -36,7 +35,6 @@ public class DialogTest : MonoBehaviour
 		yield return new WaitUntil(()=>dialogSystem02.UpdateDialog());
 
 		textCountdown.gameObject.SetActive(true);
-		textCountdown.text = "The End";
 
 		yield return new WaitForSeconds(2);
 
